@@ -37,6 +37,9 @@ footer {
 
 .login-button {
     float: right;
+    color: white;
+    border: none;
+    padding: 15px 0px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
