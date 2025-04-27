@@ -54,8 +54,8 @@ class PlaceList(Resource):
         places = facade.get_all_places()
         if not places:
             return {'error': 'Place not found'}, 404
-        return [{'place_id': place.id, 'title': place.title,'price': place.price, 'latitude': place.latitude,
-                 'longitude': place.longitude} for place in places], 200
+        return [{'place_id': place.id, 'title': place.title, 'description': place.description, 'price': place.price, 
+                 'latitude': place.latitude, 'longitude': place.longitude} for place in places], 200
 
 @api.route('/<place_id>')
 class PlaceResource(Resource):
