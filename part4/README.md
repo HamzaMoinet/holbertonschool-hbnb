@@ -68,8 +68,16 @@ Ici, nous construisons un client web interactif pour communiquer avec notre API 
 1. **Cloner ce repository** :
    ```bash
    git clone https://github.com/HamzaMoinet/holbertonschool-hbnb.git
-   cd holbertonschool-hbnb/part4
+   cd holbertonschool-hbnb/part4/Back
 
+2. **Créer un environnement virtuel** :
+    ```bash
+    python3 -m venv env
+    source env/bin/activate
+
+3. **Démarrer l'API** :
+    ```bash
+    python3 run.py
 
 ## 🌳 Arborescence du Projet
 ```text
