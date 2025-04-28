@@ -73,42 +73,43 @@ Ici, nous construisons un client web interactif pour communiquer avec notre API 
 
 ## 🌳 Arborescence du Projet
 
-```mermaid
-graph TD
-    A[Part 4 - HBNB Project] --> B[Front/]
-    B --> B1[index.html]
-    B --> B2[login.html]
-    B --> B3[place.html]
-    B --> B4[add_review.html]
-    B --> B5[scripts.js]
-    B --> B6[styles.css]
-    B --> B7[images/]
-    B7 --> B7a[logo.png]
-    B7 --> B7b[background.jpg]
-    
-    A --> C[Back/]
-    C --> C1[.gitignore]
-    C --> C2[config.py]
-    C --> C3[database_diagram.md]
-    C --> C4[requirements.txt]
-    C --> C5[run.py]
-    C --> C6[app/]
-    C6 --> C6a[__init__.py]
-    C6 --> C6b[api/]
-    C6 --> C6c[models/]
-    C6 --> C6d[persistence/]
-    C6 --> C6e[services/]
-    C --> C7[instance/]
-    C7 --> C7a[development.db]
-    C --> C8[tests/]
-    C8 --> C8a[test_amenity.py]
-    C8 --> C8b[test_BaseModel.py]
-    C8 --> C8c[test_facade.py]
-    C8 --> C8d[test_operations.sql]
-    C8 --> C8e[test_place.py]
-    C8 --> C8f[test_review.py]
-    C8 --> C8g[test_user.py]
-    C8 --> C8h[TestAmenitiesAPI.py]
-
-    A --> D[README.md]
-```
+part4/
+├── Back/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── api/
+│   │   │   ├── __init__.py
+│   │   │   ├── v1/
+│   │   │       ├── __init__.py
+│   │   │       ├── users.py
+│   │   │       ├── places.py
+│   │   │       ├── reviews.py
+│   │   │       ├── amenities.py
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   ├── user.py
+│   │   │   ├── place.py
+│   │   │   ├── review.py
+│   │   │   ├── amenity.py
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── facade.py
+│   │   ├── persistence/
+│   │       ├── __init__.py
+│   │       ├── repository.py
+├── Front/
+│   ├── index.html
+│   ├── login.html
+│   ├── place.html
+│   ├── add_review.html
+│   ├── scripts.js
+│   ├── styles.css
+│   ├── images/
+│       ├── logo.png
+│       ├── background.jpg
+├── instance/
+│   ├── development.db
+├── run.py
+├── config.py
+├── requirements.txt
+├── README.md
