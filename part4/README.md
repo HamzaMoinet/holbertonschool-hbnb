@@ -126,3 +126,7 @@ part4/
 ├── requirements.txt
 ├── README.md
 ```
+
+## Authors
+
+- [@HamzaMoinet](https://github.com/HamzaMoinet)
