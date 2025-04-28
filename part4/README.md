@@ -72,7 +72,7 @@ Ici, nous construisons un client web interactif pour communiquer avec notre API 
 
 
 ## 🌳 Arborescence du Projet
-```mermaid
+```text
 part4/
 ├── Back/
 │   ├── app/
