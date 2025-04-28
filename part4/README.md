@@ -75,7 +75,11 @@ Ici, nous construisons un client web interactif pour communiquer avec notre API 
     python3 -m venv env
     source env/bin/activate
 
-3. **Démarrer l'API** :
+3. **Installer les requirements** :
+    ```bash
+    pip install -r requirements.txt
+
+4. **Démarrer l'API** :
     ```bash
     python3 run.py
 
