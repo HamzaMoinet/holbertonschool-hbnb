@@ -72,7 +72,7 @@ Ici, nous construisons un client web interactif pour communiquer avec notre API 
 
 
 ## 🌳 Arborescence du Projet
-
+```mermaid
 part4/
 ├── Back/
 │   ├── app/
@@ -113,3 +113,4 @@ part4/
 ├── config.py
 ├── requirements.txt
 ├── README.md
+```
