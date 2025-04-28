@@ -67,7 +67,7 @@ Ici, nous construisons un client web interactif pour communiquer avec notre API 
 
 1. **Cloner ce repository** :
    ```bash
-   git clone https://github.com/holbertonschool-hbnb.git
+   git clone https://github.com/HamzaMoinet/holbertonschool-hbnb.git
    cd holbertonschool-hbnb/part4
 
 
@@ -75,17 +75,40 @@ Ici, nous construisons un client web interactif pour communiquer avec notre API 
 
 ```mermaid
 graph TD
-    A[Part 4 - Web Client] --> B[index.html]
-    A --> C[login.html]
-    A --> D[place.html]
-    A --> E[add_review.html]
-    A --> F[assets/]
-    F --> F1[style.css]
-    F --> F2[script.js]
-    F --> F3[images/]
-    F3 --> F3a[logo.png]
-    F3 --> F3b[background.jpg]
-    A --> G[utils/]
-    G --> G1[auth.js]
-    G --> G2[api.js]
-    G --> G3[helpers.js]
+    A[Part 4 - HBNB Project] --> B[Front/]
+    B --> B1[index.html]
+    B --> B2[login.html]
+    B --> B3[place.html]
+    B --> B4[add_review.html]
+    B --> B5[scripts.js]
+    B --> B6[styles.css]
+    B --> B7[images/]
+    B7 --> B7a[logo.png]
+    B7 --> B7b[background.jpg]
+    
+    A --> C[Back/]
+    C --> C1[.gitignore]
+    C --> C2[config.py]
+    C --> C3[database_diagram.md]
+    C --> C4[requirements.txt]
+    C --> C5[run.py]
+    C --> C6[app/]
+    C6 --> C6a[__init__.py]
+    C6 --> C6b[api/]
+    C6 --> C6c[models/]
+    C6 --> C6d[persistence/]
+    C6 --> C6e[services/]
+    C --> C7[instance/]
+    C7 --> C7a[development.db]
+    C --> C8[tests/]
+    C8 --> C8a[test_amenity.py]
+    C8 --> C8b[test_BaseModel.py]
+    C8 --> C8c[test_facade.py]
+    C8 --> C8d[test_operations.sql]
+    C8 --> C8e[test_place.py]
+    C8 --> C8f[test_review.py]
+    C8 --> C8g[test_user.py]
+    C8 --> C8h[TestAmenitiesAPI.py]
+
+    A --> D[README.md]
+```
